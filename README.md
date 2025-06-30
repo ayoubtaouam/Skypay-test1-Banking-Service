@@ -1,2 +1,12 @@
-Implementing the banking account service by implementing the 3 methods, the deposit method that adds to the balance, the withdraw method that takes from the balance as long as the operation is possible, if not it raises an exception, and then the method that prints the transactions from the newest to the oldest.
-In the main method I tested the methods on the 3 transactions mentioned in the test.
+# Banking Service – Technical Test 1
+
+This project implements a simplified banking system with support for deposit, withdrawal, and statement printing. It follows the specification provided in the test.
+
+## ✅ Features
+
+- **Deposit Funds**: Add money to the account.
+- **Withdraw Funds**: Deduct money from the account with balance checks.
+- **Print Statement**: Display transaction history in reverse chronological order.
+  - Format: `Date || Amount || Balance`
+- **Transaction Tracking**: Maintains balance history, amounts, and dates using internal lists.
+- **Exception Handling**: Prevents overdrafts with clear error messaging.
